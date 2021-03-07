@@ -9,8 +9,9 @@ terraform {
 }
 
 provider "azurerm" {
-  az-login
   features {}
+  subscription_id = "8e418cee-cb4e-46cd-8703-85a2d02e0b7e"
+  tenant_id       = "1edaad83-b2ef-483d-81f1-2c48682f40ec"
 }
 
 variable "location" {}
